@@ -29,7 +29,6 @@ messagesRouter.post("/",  async (req, res) => {
     };
     const message = await fileDb.addMessages(messageData);
     res.send(message);
-    return res.send('SomeThing post');
 })
 
 export default messagesRouter;
