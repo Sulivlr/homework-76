@@ -1,8 +1,32 @@
 [
   {
+    "id": "1e4b34fd-c92c-4dc9-807a-913afcd975a1",
+    "message": "I want to be a Fullstack developer",
+    "author": "JS enthusiast",
+    "dateTime": "2024-08-12T07:56:30.675Z"
+  },
+  {
+    "id": "ba424708-eeff-4bbe-8b7c-e47f24dd6ce3",
+    "message": "FrontEnd development is very hard job",
+    "author": "JS enthusiast",
+    "dateTime": "2024-08-12T07:54:40.178Z"
+  },
+  {
     "id": "abf1b86e-3b4b-4c21-98f1-07d4f359695e",
     "message": "Sultan good guy",
     "author": "Sultan",
     "dateTime": "2024-08-12T07:43:04.982Z"
+  },
+  {
+    "id": "2314c2f8-7c1b-4783-b7b5-5cfe5fc54c97",
+    "message": "Today is very shinee day",
+    "author": "JS enthusiast",
+    "dateTime": "2024-08-12T07:59:37.146Z"
+  },
+  {
+    "id": "038e3623-d2fd-40b4-bea4-5c48a81e7ade",
+    "message": "two weeks ago, the days were very rainy",
+    "author": "JS enthusiast",
+    "dateTime": "2024-08-12T08:16:44.847Z"
   }
 ]
