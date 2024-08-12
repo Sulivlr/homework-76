@@ -5,7 +5,7 @@ import fileDb from '../fileDb';
 const messagesRouter = express.Router();
 
 messagesRouter.get("/", async (req, res) => {
-  const queryDate = req.query.datetime as string;
+  const queryDate = req.query.dateTime as string;
 
   if (queryDate) {
     const date = new Date(queryDate);
@@ -13,9 +13,11 @@ messagesRouter.get("/", async (req, res) => {
       const messages = await fileDb.getMessages(queryDate);
       return res.send(messages);
     } else {
-      return res.send({error: "Invalid date"});
+      return res.status(400).send({error: "Invalid date format"});
     }
   }
+  const msg = await fileDb.getMessages();
+  res.send(msg);
 });
 
 messagesRouter.post("/",  async (req, res) => {

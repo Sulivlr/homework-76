@@ -8,7 +8,7 @@ let data: Message[] = [];
 const fileDb = {
   async init() {
     try {
-      const fileContents = await fs.readFile((fileName));
+      const fileContents = await fs.readFile(fileName);
       data = JSON.parse(fileContents.toString());
     } catch (error) {
       data = []
